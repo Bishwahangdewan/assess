@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-shadow: 5px 5px 10px #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bars {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1b61e4;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bulb,
+.logo {
+    color: #1b61e4;
+    font-size: 25px;
+    margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown {
+    padding: 5px 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+}
+
+
+.textPrimary {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.textPrimary_subHeading {
+    font-size: 15px;
+}
+
+.testPrimary_heading {
+    display: inline-block;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.selectClassInput {
+    text-align: center;
+
+}
+
+.selectClassInput input {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 6px #ccc;
+}
+
+.selectClassInput input::placeholder {
+    color: #555;
+}
+
+.selectClassInput .button {
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: none;
+    background-color: #4d88f5;
+    color: #fff;
+}
+
+
+.paragraph {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-secondary {
+    color: rgb(252, 169, 16);
+    font-weight: bold;
+}
+
+
+.services {
+    display: flex;
+    box-shadow: 3px 3px 15px #bbb;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.service {
+    width: 28%;
+    text-align: center;
+}
+
+.service i {
+    color: #1b61e4;
+    background-color: #e8f0ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.service span {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 16px;
 }
